@@ -84,7 +84,7 @@ Terakhir scan kode QR
 
 | SIMSIMI |Yes|
 | ------------- | ------------- |
-| Simsimi |❌|
+| Simsimi |✅|
 
 | FUN |Yes|
 | ------------- | ------------- |
