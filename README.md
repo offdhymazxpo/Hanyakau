@@ -27,7 +27,7 @@ Re-upload numpang ganti nama gabakal bikin lu pro
 
 ## Give me Start ⭐ please
 
-## Semua fitur bergantung pada api, jika mengalami error berart api yang di pakai sedang bermasalah
+## Semua fitur bergantung pada api, jika mengalami error berarti api yang di pakai sedang bermasalah
 
 ## Alat
 
