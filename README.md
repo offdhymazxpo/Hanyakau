@@ -27,6 +27,8 @@ Re-upload numpang ganti nama gabakal bikin lu pro
 
 ## Give me Start ⭐ please
 
+## Semua fitur bergantung pada api, jika mengalami error berart api yang di pakai sedang bermasalah
+
 ## Alat
 
 Download aplikasi termux disini [DOWNLOAD](https://play.google.com/store/apps/details?id=com.termux) 
@@ -151,7 +153,15 @@ Terakhir scan kode QR
 | ------------- | ------------- |
 | Quotes maker|✅|
 | Logo pornhub|✅|
-| Logo e-sport|❌|
+| Logo e-sport|✅|
+| Logo lion|✅|
+| Logo wolf|✅|
+| Logo ninja|✅|
+| Text neon|✅|
+| Text glitch|✅|
+| Text water|✅|
+| Text Blood|✅|
+
 
 | EDUKASI |Yes|
 | ------------- | ------------- |
@@ -188,6 +198,8 @@ Terakhir scan kode QR
 | Membuka grup|✅|
 | Ping|✅|
 | Owner|✅|
+| Info|✅|
+| Intro|✅|
 
 ## Contacts
 * [Instagram](https://www.instagram.com/mrf.zvx/)
