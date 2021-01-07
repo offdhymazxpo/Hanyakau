@@ -167,6 +167,7 @@ const truth =[
 '2 tahun lagi',
 '3 tahun lagi',
 '4 tahun lagi',
+'5 tahun lagi',
 'Tidak akan',
 'Yakin bakal terjadi ?',
 'Aku meragukan nya',
