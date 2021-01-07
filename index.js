@@ -1575,7 +1575,7 @@ https://github.com/mrfzvx12/Arelbot
 ├≽️ *.Water (teks)*
 ├ _Ex : .Water Udin_
 ├≽️ *.Wolf (teks1/teks2)*
-├ _Ex : .Joker Udin/nime_
+├ _Ex : .Wolf Udin/nime_
 ╰═══════════════  
 
 ╭════•›「 EDUKASI 」 
