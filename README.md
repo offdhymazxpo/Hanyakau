@@ -41,7 +41,7 @@ Download aplikasi termux disini [DOWNLOAD](https://play.google.com/store/apps/de
 * Kapan Bot aktif
 * Apikey mhankbarbar
 * Apikey vhtear
-*Apikey tobz
+* Apikey tobz
 * Kontak whatsapp owner
 
 Custom di sini [SETTING](https://github.com/mrfzvx12/Arelbot/blob/master/index.js/#L13)
