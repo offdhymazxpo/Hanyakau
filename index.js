@@ -12,16 +12,17 @@ const speed = require('performance-now');
 
 //Setting
 
-const apivhtear = 'Apikey vhtear';
-const apibarbar = 'Apikey Mhankbarbar';
-const BotName = 'Nama bot'; 
-const instagram = 'Instagram kamu'; 
-const aktif = 'Aktif selama';
+const apivhtear = 'siregar2k99HHftel';
+const apibarbar = 'B4w56Fy3WQnfEyUNvQy8';
+const tobzkey = 'BotWeA';
+const BotName = 'Lexa'; 
+const instagram = 'http://www.instagram.com/mrf.zvx'; 
+const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
             + 'FN:Mrf.zvx\n' // Nama kamu
             + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=6280000000000:+62 800-0000-0000\n' //Nomor whatsapp kamu
+            + 'TEL;type=CELL;type=VOICE;waid=6282223014661:+62 822-2301-4661\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const
 {
@@ -167,7 +168,6 @@ const truth =[
 '2 tahun lagi',
 '3 tahun lagi',
 '4 tahun lagi',
-'5 tahun lagi',
 'Tidak akan',
 'Yakin bakal terjadi ?',
 'Aku meragukan nya',
@@ -334,12 +334,15 @@ if (text.includes('.map')){
 //Informasi
 if (text.includes('.info')){
 conn.sendMessage(id, 'Bot bermasalah ? laporkan fitur error ke owner, ketik .owner',MessageType.text, { quoted: m } );
-
-
+}
+ //install
+if (text.includes('.install')){
+conn.sendMessage(id, 'How to install whatsapp bot on android\n*Tutorial* : https://github.com/mrfzvx12/termux-whatsapp-bot',MessageType.text, { quoted: m } );
+}
  //intro grup
 if (text.includes('.intro')){
 conn.sendMessage(id, 'Hai\nSelamat datang\n\n╭════•›「 *INTRO* 」\n│ Nama    :\n│ Umur     :\n│ Status   :\n│ Gender  :\n│ Askot    :\n╰═══════════════',MessageType.text);
-
+}
   //Tag
 if (text.includes('.Tagme')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
@@ -386,7 +389,7 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .nuli
 }
 if (text.includes('.nulis')){
   const teks = text.replace(/.nulis /, '')
-    axios.get(`https://st4rz.herokuapp.com/api/nulis?text=${teks}`)
+    axios.get(`https://tobz-api.herokuapp.com/api/nulis?text=${teks}&apikey=${tobzkey}`)
     .then((res) => {
       imageToBase64(res.data.result)
         .then(
@@ -443,15 +446,15 @@ axios.get(`https://mhankbarbars.herokuapp.com/api/ig?url=${teks}&apiKey=${apibar
 })
 }
 
-  //Facebook download
-if (text.includes('.Fb')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .fb http://www.facebook..._',MessageType.text, {quoted: m});
+  //joox download
+if (text.includes('.Joox')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh :: .joox akad - payung teduh_',MessageType.text, {quoted: m});
 }
-if (text.includes('.fb')){
-const teks = text.replace(/.fb /, "")
-axios.get(`https://api.vhtear.com/fbdl?link=${teks}&apikey=${apivhtear}`).then((res) => {
+if (text.includes('.joox')){
+const teks = text.replace(/.joox /, "")
+axios.get(`https://tobz-api.herokuapp.com/api/joox?q=${teks}&apikey=${tobzkey}`).then((res) => {
 	conn.sendMessage(id, '[ WAIT ] Mendownload...⏳ silahkan tunggu', MessageType.text, {quoted: m})
-    let hasil = `Klik link dan download hasilnya!\n*Judul* : ${res.data.title}\n*Link* : ${res.data.result}`;
+    let hasil = `Klik link dan download hasilnya!\n*Judul* : ${res.data.result.album} - ${res.data.result.judul}\n*Link* : ${res.data.result.mp3}`;
     conn.sendMessage(id, hasil ,MessageType.text, {quoted: m});
 })
 }
@@ -488,9 +491,9 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .shol
 }
 if (text.includes(".sholat")){
   const teks = text.replace(/.sholat /, "")
-  axios.get(`https://tobz-api.herokuapp.com/api/jadwalshalat?q=${teks}`).then ((res) =>{
+  axios.get(`https://tobz-api.herokuapp.com/api/jadwalshalat?q=${teks}&apikey=${tobzkey}`).then ((res) =>{
   conn.sendMessage(id, '[ WAIT ] Menampilkan jadwal sholat⏳ silahkan tunggu', MessageType.text, {quoted: m})
-  let hasil = `Jadwal sholat di ${teks} hari ini adalah\n\n*Imsyak* : ${res.data.result.imsyak} WIB\n*Subuh* : ${res.data.result.subuh} WIB\n*Dzuhur* : ${res.data.result.dzuhur} WIB\n*Ashar* : ${res.data.result.ashar} WIB\n*Maghrib* : ${res.data.result.maghrib} WIB\n*Isya* : ${res.data.result.isha} WIB`;
+  let hasil = `Jadwal sholat di ${teks} hari ini adalah\n\n*Imsak* : ${res.data.result.imsyak} WIB\n*Subuh* : ${res.data.result.subuh} WIB\n*Dzuhur* : ${res.data.result.dzuhur} WIB\n*Ashar* : ${res.data.result.ashar} WIB\n*Maghrib* : ${res.data.result.maghrib} WIB\n*Isya* : ${res.data.result.isha} WIB`;
   conn.sendMessage(id, hasil, MessageType.text, {quoted: m});
 })
 }
@@ -979,17 +982,6 @@ if (messageType === MessageType.text)
 
    };
 
-  //Jadwal tv random
-if (text.includes('.Infotv')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
-}
-if (text.includes(".infotv")){
-	axios.get(`https://docs-jojo.herokuapp.com/api/jadwaltvnow`).then ((res) => {
-	conn.sendMessage(id, '[ WAIT ] Menampilkan jadwal tv⏳ silahkan tunggu', MessageType.text, { quoted: m } )
-	let hasil =`*Jadwal* : \n${res.data.result}`
-	conn.sendMessage(id, hasil, MessageType.text, { quoted: m } )
-    })
-}
   //Nama ninja
 if (text.includes('.Namae')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .namae udin_',MessageType.text, { quoted: m } );
@@ -1107,7 +1099,7 @@ if (text.includes('.ninja')){
 var porn = text.split(".ninja ")[1];
     var text1 = porn.split("/")[0];
     var text2 = porn.split("/")[1];
-    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=ninjalogo&text1=${text1}&text2=${text2}`).then((res) => {
+    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=ninjalogo&text1=${text1}&text2=${text2}&apikey=${tobzkey}`).then((res) => {
       imageToBase64(res.data.result)
         .then(
           (ress) => {
@@ -1126,7 +1118,7 @@ if (text.includes('.wolf')){
 var porn = text.split(".wolf ")[1];
     var text1 = porn.split("/")[0];
     var text2 = porn.split("/")[1];
-    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=wolflogo1&text1==${text1}&text2=${text2}`).then((res) => {
+    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=wolflogo1&text1=${text1}&text2=${text2}&apikey=${tobzkey}`).then((res) => {
       imageToBase64(res.data.result)
         .then(
           (ress) => {
@@ -1144,7 +1136,7 @@ if (text.includes('.lion')){
 var porn = text.split(".lion ")[1];
     var text1 = porn.split("/")[0];
     var text2 = porn.split("/")[1];
-    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=lionlogo&text1=${text1}&text2=${text2}`).then((res) => {
+    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=lionlogo&text1=${text1}&text2=${text2}&apikey=${tobzkey}`).then((res) => {
       imageToBase64(res.data.result)
         .then(
           (ress) => {
@@ -1162,7 +1154,7 @@ if (text.includes('.glitch')){
 var porn = text.split(".glitch ")[1];
     var text1 = porn.split("/")[0];
     var text2 = porn.split("/")[1];
-    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=glitch&text1=${text1}&text2=${text2}`).then((res) => {
+    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=glitch&text1=${text1}&text2=${text2}&apikey=${tobzkey}`).then((res) => {
       imageToBase64(res.data.result)
         .then(
           (ress) => {
@@ -1179,7 +1171,7 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .joke
 }
 if (text.includes('.joker')){
 const teks = text.replace(/.joker /, "")
-    axios.get(`https://docs-jojo.herokuapp.com/api/gaming?text=${teks}`)
+    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=jokerlogo&text=${teks}&apikey=${tobzkey}`)
     .then((res) => {
       imageToBase64(res.data.result)
         .then(
@@ -1197,7 +1189,7 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .bloo
 }
 if (text.includes('.blood')){
 const teks = text.replace(/.blood /, "")
-    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=blood&text=${teks}`)
+    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=blood&text=${teks}&apikey=${tobzkey}`)
     .then((res) => {
       imageToBase64(res.data.result)
         .then(
@@ -1215,7 +1207,7 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .wate
 }
 if (text.includes('.water')){
 const teks = text.replace(/.water /, "")
-    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=dropwater&text=${teks}`)
+    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=dropwater&text=${teks}&apikey=${tobzkey}`)
     .then((res) => {
       imageToBase64(res.data.result)
         .then(
@@ -1233,7 +1225,7 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .wate
 }
 if (text.includes('.neon')){
 const teks = text.replace(/.neon /, "")
-    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=neon_light&text=${teks}`)
+    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=neon_technology&text=${teks}&apikey=${tobzkey}`)
     .then((res) => {
       imageToBase64(res.data.result)
         .then(
@@ -1245,12 +1237,12 @@ const teks = text.replace(/.neon /, "")
     })
 }
 
-if (text.includes('.Logoesport')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : logoesport udin_',MessageType.text, { quoted: m } );
+if (text.includes('.Snow')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Snow udin_',MessageType.text, { quoted: m } );
 }
-if (text.includes('.logoesport')){
-const teks = text.replace(/.logoesport /, "")
-    axios.get(`https://docs-jojo.herokuapp.com/api/gaming?text=${teks}`)
+if (text.includes('.snow')){
+const teks = text.replace(/.snow /, "")
+    axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=snow&text=${teks}&apikey=${tobzkey}`)
     .then((res) => {
       imageToBase64(res.data.result)
         .then(
@@ -1402,8 +1394,8 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .bot 
 }
 if (text.includes(".bot")){
 const teks = text.replace(/.bot /, "")
-axios.get(`https://mhankbarbars.herokuapp.com/api/samisami?text=${teks}`).then((res) => {
-    let hasil = `${res.data.result}\n\n*Simsimi chat*`;
+axios.get(`https://tobz-api.herokuapp.com/api/simsimi?text=${teks}&apikey=${tobzkey}`).then((res) => {
+    let hasil = `${res.data}\n\n*Simsimi chat*`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
@@ -1420,8 +1412,6 @@ _Ex artinya contoh_͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏�
 
 > *Follow Me On Instagram* 
 ${instagram}  
-> *How to install bot in android* 
-https://github.com/mrfzvx12/Arelbot  
 > *Bot aktif selama : ${aktif}*
 
 ╭════•›「 SimSimi 」 
@@ -1438,6 +1428,8 @@ https://github.com/mrfzvx12/Arelbot
 ├ _Jika bot bermasalah_ 
 ├≽️ *.Owner*
 ├ _Info Admin bot_ 
+├≽️ *.Install*
+├ _Tutorial install bot_ 
 ╰═══════════════  
 
 ╭════•›「 GRUP 」
@@ -1566,8 +1558,8 @@ https://github.com/mrfzvx12/Arelbot
 ├ _Ex : .Joker Udin/nime 
 ├≽️ *.Glitch (teks1/teks2)*
 ├ _Ex : .Glich Udin/nime 
-├≽️ *.Logoesport (teks)*
-├ _Ex : .Logoesport Udin
+├≽️ *.Snow (teks)*
+├ _Ex : .Snow Udin
 ├≽️ *.Neon (teks)*
 ├ _Ex : .Neon Udin_
 ├≽️ *.Blood (teks)*
@@ -1609,8 +1601,6 @@ https://github.com/mrfzvx12/Arelbot
 ╭════•›「 OTHER 」 
 ├≽️ *.Sholat (Nama daerah)*
 ├ _Ex = .Sholat Jakarta_ 
-├≽️ *.Infotv*
-├ _Random jadwal tv_ 
 ├≽️ *.Jadwaltv (nama channel)*
 ├ _Ex = .Jadwaltv Rcti_ 
 ├≽️ *.Lirik*
@@ -1626,10 +1616,10 @@ https://github.com/mrfzvx12/Arelbot
 ├ _Ex = .Ytmp3 http://www.you..._ 
 ├≽️ *.Twt link*
 ├ _Ex = .Twt http://www.twt..._ 
-├≽️ *.Fb link*
-├ _Ex = .Fb http://www.face..._ 
 ├≽️ *.Ig link*
 ├ _Ex = .Ig http://www.inst.._
+├≽️ *.Joox (judul lagu)
+├ _Ex = .Joox akad - payung teduh_ 
 ╰═══════════════  `,
        contextInfo: { mentionedJid: [nomor] }
  }
