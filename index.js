@@ -1618,7 +1618,7 @@ ${instagram}
 ├ _Ex = .Twt http://www.twt..._ 
 ├≽️ *.Ig link*
 ├ _Ex = .Ig http://www.inst.._
-├≽️ *.Joox (judul lagu)
+├≽️ *.Joox (judul lagu)*
 ├ _Ex = .Joox akad - payung teduh_ 
 ╰═══════════════  `,
        contextInfo: { mentionedJid: [nomor] }
