@@ -493,7 +493,7 @@ if (text.includes(".sholat")){
   const teks = text.replace(/.sholat /, "")
   axios.get(`https://tobz-api.herokuapp.com/api/jadwalshalat?q=${teks}&apikey=${tobzkey}`).then ((res) =>{
   conn.sendMessage(id, '[ WAIT ] Menampilkan jadwal sholat⏳ silahkan tunggu', MessageType.text, {quoted: m})
-  let hasil = `Jadwal sholat di ${teks} hari ini adalah\n\n*Imsak* : ${res.data.result.imsyak} WIB\n*Subuh* : ${res.data.result.subuh} WIB\n*Dzuhur* : ${res.data.result.dzuhur} WIB\n*Ashar* : ${res.data.result.ashar} WIB\n*Maghrib* : ${res.data.result.maghrib} WIB\n*Isya* : ${res.data.result.isha} WIB`;
+  let hasil = `Jadwal sholat di ${teks} hari ini adalah\n\n*Imsak* : ${res.data.result.imsak} WIB\n*Subuh* : ${res.data.result.subuh} WIB\n*Dzuhur* : ${res.data.result.dzuhur} WIB\n*Ashar* : ${res.data.result.ashar} WIB\n*Maghrib* : ${res.data.result.maghrib} WIB\n*Isya* : ${res.data.result.isha} WIB`;
   conn.sendMessage(id, hasil, MessageType.text, {quoted: m});
 })
 }
