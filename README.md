@@ -125,7 +125,7 @@ Terakhir scan kode QR
 | Youtube Music |✅|
 | Youtube Video |✅|
 | Instagram foto/video |✅|
-| Facebook video |✅|
+| Joox |✅|
 | Twitter video |✅|
 
 | TOOLS |Yes|
@@ -153,7 +153,7 @@ Terakhir scan kode QR
 | ------------- | ------------- |
 | Quotes maker|✅|
 | Logo pornhub|✅|
-| Logo e-sport|✅|
+| Text snow|✅|
 | Logo lion|✅|
 | Logo wolf|✅|
 | Logo ninja|✅|
@@ -181,9 +181,8 @@ Terakhir scan kode QR
 
 | Others |Yes|
 | ------------- | ------------- |
-| Jadwal tv|❌|
 | Jadwal tv (channel)|✅|
-| Jadwal sholat|❌|
+| Jadwal sholat|✅|
 | Info Covid|✅|
 | Info anime|✅|
 | Lirik lagu|✅|
