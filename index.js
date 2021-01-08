@@ -12,9 +12,9 @@ const speed = require('performance-now');
 
 //Setting
 
-const apivhtear = 'siregar2k99HHftel';
-const apibarbar = 'B4w56Fy3WQnfEyUNvQy8';
-const tobzkey = 'BotWeA';
+const apivhtear = 'apivhtear';
+const apibarbar = 'apibarbar';
+const tobzkey = 'apitobz';
 const BotName = 'Lexa'; 
 const instagram = 'http://www.instagram.com/mrf.zvx'; 
 const aktif = '08:00 - 22:00';
@@ -1395,7 +1395,7 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .bot 
 if (text.includes(".bot")){
 const teks = text.replace(/.bot /, "")
 axios.get(`https://tobz-api.herokuapp.com/api/simsimi?text=${teks}&apikey=${tobzkey}`).then((res) => {
-    let hasil = `${res.data}\n\n*Simsimi chat*`;
+    let hasil = `${res.data.result}\n\n*Simsimi chat*`;
     conn.sendMessage(id, hasil ,MessageType.text);
 })
 }
