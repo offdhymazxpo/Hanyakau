@@ -22,9 +22,9 @@ Re-upload numpang ganti nama gabakal bikin lu pro
 * "Wahai orang-orang yang beriman, mengapakah kamu mengatakan sesuatu yang tidak kamu kerjakan?, Amat besar kebencian di sisi Allah bahwa kamu mengatakan apa-apa yang tidak kamu kerjakan."
 (QS ash-Shaff: 2-3).
 
-# Give me Start ⭐ to support
+### Give me Start ⭐ to support
 
-# Semua fitur bergantung pada api, jika mengalami error berarti api yang di pakai sedang bermasalah
+### Semua fitur bergantung pada api, jika mengalami error berarti api yang di pakai sedang bermasalah
 
 ## Alat
 
