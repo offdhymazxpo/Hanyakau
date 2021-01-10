@@ -948,11 +948,11 @@ axios.get(`https://arugaz.herokuapp.com/api/chord?q=${teks}`).then((res) => {
 }
 
   //Informasi anime
-if (text.includes('.Infonime')){
+if (text.includes('.nime')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .infonime naruto_',MessageType.text, { quoted: m } );
 }
-if (text.includes(".infonime")){
-const sons = text.replace(/.infonime /, "")
+if (text.includes(".nime")){
+const sons = text.replace(/.nime /, "")
 axios.get(`https://arugaz.herokuapp.com/api/kuso?q=${sons}`).then ((res) =>{
     conn.sendMessage(id, '[ WAIT ] Searching info anime⏳ silahkan tunggu', MessageType.text, { quoted: m } )
     let hasil = `*Judul* : ${res.data.title}\n*Info* : ${res.data.info}\n*Link* : ${res.data.link_dl}\n*Sinopsis* : ${res.data.sinopsis}`;
@@ -999,7 +999,7 @@ if (text.includes('.gempa')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
 if (text.includes(".gempa")){
-  axios.get(`https://arugaz.herokuapp.com/api/infogempa`).then ((res) =>{
+  axios.get(`https://st4rz.herokuapp.com/api/infogempa`).then ((res) =>{
   conn.sendMessage(id, '[ WAIT ] Menampilkan info gempa⏳ silahkan tunggu', MessageType.text, { quoted: m } )
   let hasil = ` *INFO GEMPA*\n*Lokasi* : _${res.data.lokasi}_\n *Kedalaman* : _${res.data.kedalaman}_\n*Koordinat* : _${res.data.koordinat}_\n*Magnitude* : _${res.data.magnitude}_\n*Waktu* : _${res.data.waktu}_\n${res.data.potensi}`;
   conn.sendMessage(id, hasil, MessageType.text, { quoted: m } );
