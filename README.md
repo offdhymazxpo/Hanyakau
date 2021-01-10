@@ -132,7 +132,7 @@ Terakhir scan kode QR
 
 | TOOLS |Yes|
 | ------------- | ------------- |
-| Nulis|❌|
+| Nulis|✅|
 | Stiker|✅|
 | OCR|✅|
 | Instagram stalker|✅|
