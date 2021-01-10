@@ -389,14 +389,14 @@ conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .nuli
 }
 if (text.includes('.nulis')){
   const teks = text.replace(/.nulis /, '')
-    axios.get(`https://tobz-api.herokuapp.com/api/nulis?text=${teks}&apikey=${tobzkey}`)
+    axios.get(`https://mhankbarbars.herokuapp.com/nulis?text=${teks}&apiKey=${apibarbar}`)
     .then((res) => {
       imageToBase64(res.data.result)
         .then(
           (ress) => {
             conn.sendMessage(id, '[ WAIT ] Menulis ⏳ silahkan tunggu', MessageType.text, {quoted: m})
             var buf = Buffer.from(ress, 'base64')
-            conn.sendMessage(id, buf ,MessageType.image, {quoted: m})
+            conn.sendMessage(id, buf ,MessageType.image, {caption: 'Nulis gini aja males lu', quoted: m})
         })
     })
 }
@@ -995,10 +995,10 @@ axios.get(`https://api.terhambar.com/ninja?nama=${teks}`).then((res) => {
 })
 }
   //Random informasi gempa
-if (text.includes('.Infogempa')){
+if (text.includes('.gempa')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
-if (text.includes(".infogempa")){
+if (text.includes(".gempa")){
   axios.get(`https://arugaz.herokuapp.com/api/infogempa`).then ((res) =>{
   conn.sendMessage(id, '[ WAIT ] Menampilkan info gempa⏳ silahkan tunggu', MessageType.text, { quoted: m } )
   let hasil = ` *INFO GEMPA*\n*Lokasi* : _${res.data.lokasi}_\n *Kedalaman* : _${res.data.kedalaman}_\n*Koordinat* : _${res.data.koordinat}_\n*Magnitude* : _${res.data.magnitude}_\n*Waktu* : _${res.data.waktu}_\n${res.data.potensi}`;
@@ -1288,10 +1288,10 @@ axios.get(`https://mhankbarbars.herokuapp.com/api/jdtv?ch=${teks}&apiKey=${apiba
 }
 
   //Informasi BMKG
-if (text.includes('.Infobmkg')){
+if (text.includes('.bmkg')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
-if (text.includes(".infobmkg")){
+if (text.includes(".bmkg")){
 	axios.get(`https://mnazria.herokuapp.com/api/bmkg-gempa`).then ((res) => {
 	conn.sendMessage(id, '[ WAIT ] Searching info BMKG⏳ silahkan tunggu', MessageType.text, { quoted: m } )
 	let hasil =`${res.data.result}\n*Saran* : ${res.data.saran}`
@@ -1594,9 +1594,9 @@ ${instagram}
 ╰═══════════════  
 
 ╭════•›「 WEATHER 」 
-├≽️ *.Infobmkg*
+├≽️ *.Bmkg*
 ├ _Random info dari BMKG_
-├≽️ *.Infogempa*
+├≽️ *.Gempa*
 ├ _Random info gempa_ 
 ├≽️ *.Cuaca (nama daerah)*
 ├ _Ex = .Cuaca Jakarta_
