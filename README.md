@@ -44,6 +44,9 @@ Download aplikasi termux disini [DOWNLOAD](https://play.google.com/store/apps/de
 Custom di sini [SETTING](https://github.com/mrfzvx12/Arelbot/blob/master/index.js/#L13)
 
 ## Dapatkan apikey disini
+
+Beberapa fitur berjalan menggunakan apikey, jika apikey tidak tersedia maka beberapa fitur tidak bisa di pakai.
+
 * [Apibarbar](https://mhankbarbars.herokuapp.com/)
 * [Apivhtear](https://vhtear.com/)
 * [Apitobz](https://tobz-api.herokuapp.com/)
