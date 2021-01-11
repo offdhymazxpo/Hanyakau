@@ -4,4 +4,3 @@ npm i -g ytdl
 npm i node-tesseract-ocr
 npm i
 npm i got
-npm audit fix
