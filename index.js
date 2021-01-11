@@ -948,8 +948,8 @@ axios.get(`https://arugaz.herokuapp.com/api/chord?q=${teks}`).then((res) => {
 }
 
   //Informasi anime
-if (text.includes('.nime')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .infonime naruto_',MessageType.text, { quoted: m } );
+if (text.includes('.Nime')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Nime naruto_',MessageType.text, { quoted: m } );
 }
 if (text.includes(".nime")){
 const sons = text.replace(/.nime /, "")
@@ -995,7 +995,7 @@ axios.get(`https://api.terhambar.com/ninja?nama=${teks}`).then((res) => {
 })
 }
   //Random informasi gempa
-if (text.includes('.gempa')){
+if (text.includes('.Gempa')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
 if (text.includes(".gempa")){
@@ -1091,9 +1091,7 @@ var porn = text.split(".logopornhub ")[1];
 }
 
 if (text.includes('.Ninja')){
-
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .ninja udin/nime_',MessageType.text, { quoted: m } );
-
 }
 if (text.includes('.ninja')){
 var porn = text.split(".ninja ")[1];
@@ -1288,7 +1286,7 @@ axios.get(`https://mhankbarbars.herokuapp.com/api/jdtv?ch=${teks}&apiKey=${apiba
 }
 
   //Informasi BMKG
-if (text.includes('.bmkg')){
+if (text.includes('.Bmkg')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil',MessageType.text, { quoted: m } );
 }
 if (text.includes(".bmkg")){
