@@ -26,6 +26,9 @@ Re-upload numpang ganti nama gabakal bikin lu pro
 
 ### Semua fitur bergantung pada api, jika mengalami error berarti api yang di pakai sedang bermasalah
 
+### Sebelum install tes fitur dulu disini
+* [TES BOT](https://chat.whatsapp.com/FQNUK5VFD68GZaB0UlXjst)
+
 ## Alat
 
 Download aplikasi termux disini [DOWNLOAD](https://play.google.com/store/apps/details?id=com.termux) 
