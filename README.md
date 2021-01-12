@@ -31,11 +31,13 @@ Re-upload numpang ganti nama gabakal bikin lu pro
 
 ## Alat
 
-Download aplikasi termux disini
-[DOWNLOAD](https://play.google.com/store/apps/details?id=com.termux) 
+Download aplikasi termux disini :
 
-Download aplikasi WhatsApp Bisnis disini
-[DOWNLOAD](https://play.google.com/store/apps/details?id=com.whatsapp.w4b) 
+[DOWNLOAD Termux](https://play.google.com/store/apps/details?id=com.termux) 
+
+Download aplikasi WhatsApp Bisnis disini :
+
+[DOWNLOAD Whatsapp Bisnis](https://play.google.com/store/apps/details?id=com.whatsapp.w4b) 
 
 ## Settings
 
