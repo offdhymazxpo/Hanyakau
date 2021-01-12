@@ -88,7 +88,9 @@ Jalankan bot
 ```
 Terakhir scan kode QR
 
+## Tutorial video
 
+* [Youtube](https://youtu.be/VqSer_W1yvI)
 
 ## FITUR
 
