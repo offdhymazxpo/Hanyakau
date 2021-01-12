@@ -15,17 +15,17 @@ const speed = require('performance-now');
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
-const ovo = '082223014661';
-const pulsa = '082223014661';
-const dana = '082223014661';
-const BotName = 'Lexa'; 
-const instagram = 'http://www.instagram.com/mrf.zvx'; 
-const aktif = '08:00 - 22:00';
+const ovo = '085524954326';
+const pulsa = '085524954326';
+const dana = '085524954326';
+const BotName = 'OKA CHINAMI'; 
+const instagram = 'Comingsoon'; 
+const aktif = 'Urusan owner';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:Mrf.zvx\n' // Nama kamu
-            + 'ORG:Lexa;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=6282223014661:+62 822-2301-4661\n' //Nomor whatsapp kamu
+            + 'FN:DEN\n' // Nama kamu
+            + 'ORG:Oka chinami;\n' // Nama bot
+            + 'TEL;type=CELL;type=VOICE;waid=6281292709196:+62 812-9270-9196\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const
 {
@@ -1792,58 +1792,38 @@ _Ex artinya contoh_͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏�
 
  「 *LIST MENU* 」  
 
-> *Follow Me On Instagram* 
-${instagram}  
-> *Bot aktif selama : ${aktif}*
 
-╭════•›「 SimSimi 」 
-├≽️ *.Bot*
-├ _Gunakan huruf kecil_
-├ _Contoh_
-├ _.Bot kamu mau makan_
-╰═══════════════  
+ ➸ Prefix:  *「 . 」*
+ ➸ Status: *「 Online 」*
+͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏͏  
 
-╭════•›「 ${BotName} 」 
-├≽️ *.Menu*
-├ _Menampilkan list menu_ 
-├≽️ *.Info*
-├ _Jika bot bermasalah_ 
-├≽️ *.Owner*
-├ _Info Admin bot_ 
-├≽️ *.Install*
-├ _Tutorial install bot_ 
-├≽️ *.Donasi*
-├ _Info menu donasi_ 
-╰═══════════════  
+▣══─「 ${BotName} 」─══▣
+├⊱ *.Menu*
+├⊱ *.Info*
+├⊱ *.Owner*
+├⊱ *.Donasi*
+╰────────────⊱
 
 ╭════•›「 GRUP 」
 ├≽️ *.Intro*
-├ _List intro newmem_ 
 ├≽️ *.Setname*
-├ _Merubah nama grup_ 
 ├≽️ *.Setdesc*
-├ _Merubah deskripsi grup_ 
 ├≽️ *.Opengc*
-├ _Membuka grup_ 
 ├≽️ *.Closegc*
-├ _Menutup grup_ 
 ├≽️ *!Notif (teks)*
-├ _Memberikan notif ke member_ 
-╰═══════════════  
+╰────────────⊱  
 
 ╭════•›「 Game 」 
 ├≽️ *.Tebakgambar*
-├ _Random tebak gambar_ 
 ├≽️ *.Family100*
-├ _Random Pertanyaan Family100_ 
-├≽️ *.Tod (teks)*
+├⊱ *.Tod (teks)*
 ├ _.Truth_ 
 ├ _.Dare_ 
 ├≽️ *Kerang ajaib*
 ├ _.Apakah_ 
 ├ _.Bolehkah_ 
 ├ _.Kapan_ 
-╰═══════════════  
+╰────────────⊱
 
 ╭════•›「 FUN 」 
 ├≽️ *.Pantun*
@@ -1880,7 +1860,7 @@ ${instagram}
 ├ _Ex : .Chatprank Hai bang/sat_ 
 ├≽️ *.Alay (teks)*
 ├ _Ex : .Alay hai udin_ 
-╰═══════════════  
+╰────────────⊱
 
 ╭════•›「 PRIMBON 」 
 ├≽️ *.Arti (Namamu)*
@@ -1893,7 +1873,7 @@ ${instagram}
 ├ _Ex : .Zodiak libra_ 
 ├≽️ *.Mimpi (teks)*
 ├ _Ex : .Mimpi ular_
-╰═══════════════  
+╰────────────⊱
 
 ╭════•›「 TOOlS 」 
 ├≽️ *.Stiker*
@@ -1906,7 +1886,7 @@ ${instagram}
 ├ _Ex = .Stalk @udin_ 
 ├≽️ *.Shortlink (link)*
 ├ _Shorter link_ 
-╰═══════════════  
+╰────────────⊱
 
 ╭════•›「 PICTURE 」 
 ├≽️ *.Cecan/.Cogan*
@@ -1927,7 +1907,7 @@ ${instagram}
 ├ _Ex = .Img iqbal_ 
 ├≽️ *.Meme*
 ├ _Random foto lucu_ 
-╰═══════════════  
+╰────────────⊱
 
 ╭════•›「 TEXT 」 
 ├≽️ *.Kata (quotes/author)*
@@ -1984,7 +1964,7 @@ ${instagram}
 ├ _Ex : .Old Udin_
 ├≽️ *.Balon (teks)*
 ├ _Ex : .Balon Udin_
-╰═══════════════  
+╰────────────⊱
 
 ╭════•›「 EDUKASI 」 
 ├≽️ *.Brainly (Pertanyaan)*
@@ -2002,41 +1982,28 @@ ${instagram}
 ├≽️ *.Kbbi (kata)*
 ├ _Ex = .Kbbi manusia_ 
 ├≽️ *.Tgl (Tanggal yang dicari)*
-├ _Info tentang tanggal nasional_
-╰═══════════════  
+╰────────────⊱
 
 ╭════•›「 WEATHER 」 
 ├≽️ *.Bmkg*
-├ _Random info dari BMKG_
 ├≽️ *.Gempa*
-├ _Random info gempa_ 
 ├≽️ *.Cuaca (nama daerah)*
-├ _Ex = .Cuaca Jakarta_
-╰═══════════════  
+╰────────────⊱
 
 ╭════•›「 OTHER 」 
 ├≽️ *.Sholat (Nama daerah)*
-├ _Ex = .Sholat Jakarta_ 
 ├≽️ *.Jadwaltv (nama channel)*
-├ _Ex = .Jadwaltv Rcti_ 
 ├≽️ *.Lirik*
-├ _Ex = .Lirik Anji - Dia_ 
 ├≽️ *.Chord*
-├ _Ex = .Chord Anji - Dia_ 
 ├≽️ *.Map (nama daerah)*
-├ _Mini map_ 
-╰═══════════════  
+╰────────────⊱
 
 ╭════•›「 DOWNLOADER 」 
 ├≽️ *.Ytmp3/.Ytmp4 link*
-├ _Ex = .Ytmp3 http://www.you..._ 
-├≽️ *.Twt link*
-├ _Ex = .Twt http://www.twt..._ 
+├≽️ *.Twt link* 
 ├≽️ *.Ig link*
-├ _Ex = .Ig http://www.inst.._
 ├≽️ *.Joox (judul lagu)*
-├ _Ex = .Joox akad - payung teduh_ 
-╰═══════════════  `,
+╰────────────⊱`,
        contextInfo: { mentionedJid: [nomor] }
  }
  conn.sendMessage(id, options, MessageType.text, { quoted: m } )
