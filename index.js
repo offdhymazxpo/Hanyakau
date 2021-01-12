@@ -15,17 +15,17 @@ const speed = require('performance-now');
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
-const ovo = '085524954326';
-const pulsa = '085524954326';
-const dana = '085524954326';
-const BotName = 'OKA CHINAMI'; 
-const instagram = 'Comingsoon'; 
-const aktif = 'Urusan owner';
+const ovo = '082223014661';
+const pulsa = '082223014661';
+const dana = '082223014661';
+const BotName = 'Lexa'; 
+const instagram = 'https://www.instagram.com/mrf.zvx'; 
+const aktif = '08:00 - 22:00';
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n' 
-            + 'FN:DEN\n' // Nama kamu
-            + 'ORG:Oka chinami;\n' // Nama bot
-            + 'TEL;type=CELL;type=VOICE;waid=6281292709196:+62 812-9270-9196\n' //Nomor whatsapp kamu
+            + 'FN:Mrf.zvx\n' // Nama kamu
+            + 'ORG:Lexa;\n' // Nama bot
+            + 'TEL;type=CELL;type=VOICE;waid=6282223014651:+62 822-2301-4661\n' //Nomor whatsapp kamu
             + 'END:VCARD'
 const
 {
