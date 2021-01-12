@@ -207,6 +207,7 @@ Terakhir scan kode QR
 | Owner|✅|
 | Info|✅|
 | Intro|✅|
+| Donasi|✅|
 
 ## Contacts
 * [Instagram](https://www.instagram.com/mrf.zvx/)
