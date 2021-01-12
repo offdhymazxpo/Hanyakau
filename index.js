@@ -1232,12 +1232,12 @@ const teks = text.replace(/.water /, "")
     })
 }
 
-if (text.includes('.Neon')){
-conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon udin_',MessageType.text, { quoted: m } );
+if (text.includes('.Neon1')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon1 udin_',MessageType.text, { quoted: m } );
 
 }
-if (text.includes('.neon')){
-const teks = text.replace(/.neon /, "")
+if (text.includes('.neon1')){
+const teks = text.replace(/.neon1 /, "")
     axios.get(`https://tobz-api.herokuapp.com/api/textpro?theme=neon_technology&text=${teks}&apikey=${tobzkey}`)
     .then((res) => {
       imageToBase64(res.data.result)
@@ -1267,7 +1267,348 @@ const teks = text.replace(/.snow /, "")
     })
 }
 
-  //Quotes maker
+if (text.includes('.Luxy')){
+
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .Luxy udin_',MessageType.text, { quoted: m } );
+
+}
+
+if (text.includes('.luxy')){
+var teks = text.replace(/.luxy /, "")
+var url = "https://arugaz.my.id/api/textpro/luxury?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+if (text.includes('.Neon3d')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon3d udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.neon3d')){
+var teks = text.replace(/.neon3d /, "")
+var url = "https://arugaz.my.id/api/textpro/text3d?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+if (text.includes('.Blackping')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .blackpink udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.blackping')){
+var teks = text.replace(/.blackping /, "")
+var url = "https://arugaz.my.id/api/textpro/blackpink?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+if (text.includes('.Cloud')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .cloud udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.cloud')){
+var teks = text.replace(/.cloud /, "")
+var url = "https://arugaz.my.id/api/textpro/realcloud?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+
+if (text.includes('.Sky')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : . sky udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.sky')){
+var teks = text.replace(/.sky /, "")
+var url = "https://arugaz.my.id/api/textpro/realcloud?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+if (text.includes('.Sand1')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand1 udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.sand1')){
+var teks = text.replace(/.sand1 /, "")
+var url = "https://arugaz.my.id/api/textpro/sandsummer?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+if (text.includes('.Sand2')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand2 udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.sand2')){
+var teks = text.replace(/.sand2 /, "")
+var url = "https://arugaz.my.id/api/textpro/sandwrite?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+if (text.includes('.Sand3')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand3 udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.sand3')){
+var teks = text.replace(/.sand2 /, "")
+var url = "https://arugaz.my.id/api/textpro/sandengraved?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+if (text.includes('.Sand4')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .sand4 udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.sand4')){
+var teks = text.replace(/.sand4 /, "")
+var url = "https://arugaz.my.id/api/textpro/sandsummery?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+if (text.includes('.Balon')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .balon udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.balon')){
+var teks = text.replace(/.balon /, "")
+var url = "https://arugaz.my.id/api/textpro/foilballoon?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+if (text.includes('.Metal')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .metal udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.metal')){
+var teks = text.replace(/.metal /, "")
+var url = "https://arugaz.my.id/api/textpro/metaldark?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+if (text.includes('.Old')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .old udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.old')){
+var teks = text.replace(/.old /, "")
+var url = "https://arugaz.my.id/api/textpro/old1917?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+if (text.includes('.Holo')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .holo udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.holo')){
+var teks = text.replace(/.holo /, "")
+var url = "https://arugaz.my.id/api/textpro/holographic?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+if (text.includes('.Coding')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .coding udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.coding')){
+var teks = text.replace(/.coding /, "")
+var url = "https://arugaz.my.id/api/textpro/matrixtext?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+if (text.includes('.Thunder')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .thunder udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.thunder')){
+var teks = text.replace(/.thunder /, "")
+var url = "https://arugaz.my.id/api/textpro/thundertext?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+if (text.includes('.Neon4')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon4 udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.neon4')){
+var teks = text.replace(/.neon4 /, "")
+var url = "https://arugaz.my.id/api/textpro/neontext?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+if (text.includes('.Neon5')){
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon5 udin_',MessageType.text, { quoted: m } );
+}
+
+if (text.includes('.neon5')){
+var teks = text.replace(/.neon5 /, "")
+var url = "https://arugaz.my.id/api/textpro/greenneon?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}  //Quotes maker
 if (text.includes('.Kata')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .kata matamu indah bagai pelangi/udin_',MessageType.text, { quoted: m } );
 }
@@ -1491,8 +1832,8 @@ ${instagram}
 ├ _Random kata gombal_ 
 ├≽️ *.Say*
 ├  _Ex = .Say aku sayang kamu_ 
-├≽️ *.Infonime (nama anime)*
-├ _.Infonime naruto_ 
+├≽️ *.Nime (nama anime)*
+├ _.Nime naruto_ 
 ├≽️ *.Namae*
 ├ _Ex = .Namae udin_ 
 ├≽️ *.Alay*
@@ -1573,20 +1914,52 @@ ${instagram}
 ├ _Ex : .Lion Udin/nime 
 ├≽️ *.Ninja (teks1/teks2)*
 ├ _Ex : .Ninja Udin/nime 
-├≽️ *.Joker (teks1/teks2)*
-├ _Ex : .Joker Udin/nime 
+├≽️ *.Wolf (teks1/teks2)*
+├ _Ex : .Wolf Udin/nime 
 ├≽️ *.Glitch (teks1/teks2)*
 ├ _Ex : .Glich Udin/nime 
 ├≽️ *.Snow (teks)*
 ├ _Ex : .Snow Udin
-├≽️ *.Neon (teks)*
-├ _Ex : .Neon Udin_
+├≽️ *.Neon1 (teks)*
+├ _Ex : .Neon1 Udin_
+├≽️ *.Neon2 (teks)*
+├ _Ex : .Neon2 Udin_
+├≽️ *.Neon3d (teks)*
+├ _Ex : .Neon3d Udin_
+├≽️ *.Neon4 (teks)*
+├ _Ex : .Neon4 Udin_
+├≽️ *.Neon5 (teks)*
+├ _Ex : .Neon5 Udin
+├≽️ *.Sand1 (teks)*
+├ _Ex : .Sand1 Udin_
+├≽️ *.Sand2 (teks)*
+├ _Ex : .Sand2 Udin_
+├≽️ *.Sand3 (teks)*
+├ _Ex : .Sand3 Udin_
+├≽️ *.Sand4 (teks)*
+├ _Ex : .Sand4 Udin_
+├≽️ *.Sky (teks)*
+├ _Ex : .Sky Udin
+├≽️ *.cloud (teks)*
+├ _Ex : .Cloud Udin_
 ├≽️ *.Blood (teks)*
 ├ _Ex : .Blood Udin_
 ├≽️ *.Water (teks)*
 ├ _Ex : .Water Udin_
-├≽️ *.Wolf (teks1/teks2)*
-├ _Ex : .Wolf Udin/nime_
+├≽️ *.Joker (teks)*
+├ _Ex : .Joker Udin_
+├≽️ *.Thunder (teks)*
+├ _Ex : .Thunder Udin_
+├≽️ *.Coding (teks)*
+├ _Ex : .Coding Udin_
+├≽️ *.Luxy (teks)*
+├ _Ex : .Luxy Udin_
+├≽️ *.Holo (teks)*
+├ _Ex : .Holo Udin_
+├≽️ *.Old (teks)*
+├ _Ex : .Old Udin_
+├≽️ *.Balon (teks)*
+├ _Ex : .Balon Udin_
 ╰═══════════════  
 
 ╭════•›「 EDUKASI 」 
