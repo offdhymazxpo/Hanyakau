@@ -15,6 +15,9 @@ const speed = require('performance-now');
 const apivhtear = 'apivhtear';
 const apibarbar = 'apibarbar';
 const tobzkey = 'apitobz';
+const ovo = '082223014661';
+const pulsa = '082223014661';
+const dana = '082223014661';
 const BotName = 'Lexa'; 
 const instagram = 'http://www.instagram.com/mrf.zvx'; 
 const aktif = '08:00 - 22:00';
@@ -329,6 +332,18 @@ if (text.includes('.map')){
             conn.sendMessage(id, buf, MessageType.image, {quoted: m})
         })
     })
+}
+
+//Donasi
+if (text.includes('.donasi')){
+conn.sendMessage(id, `Mau donai agar bot bisa terus berjalan.
+
+ اتَّقوا النَّارَ ولو بشقِّ تمرةٍ ، فمن لم يجِدْ فبكلمةٍ طيِّبةٍ
+_“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). Jika kamu tidak punya, maka bisa dengan kalimah thayyibah” [HR. Bukhari 6539, Muslim 1016]_
+
+*Pulsa XL :* _${pulsa}_
+*Dana :* _${dana}_
+*OVO :* _${ovo}_`,MessageType.text, { quoted: m } );
 }
 
 //Informasi
