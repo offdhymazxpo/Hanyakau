@@ -1608,7 +1608,31 @@ var url = "https://arugaz.my.id/api/textpro/greenneon?text=" + teks;
             conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
         })
     })
-}  //Quotes maker
+}  
+
+if (text.includes('.Neon2')){
+
+conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .neon2 udin_',MessageType.text, { quoted: m } );
+
+}
+
+if (text.includes('.neon2')){
+var teks = text.replace(/.neon2 /, "")
+var url = "https://arugaz.my.id/api/textpro/neonlight?text=" + teks;
+
+    axios.get(url)
+    .then((res) => {
+      imageToBase64(url)
+        .then(
+          (ress) => {
+            conn.sendMessage(id, '[ WAIT ] Membuat teks⏳ silahkan tunggu', MessageType.text, { quoted: m } )
+            var buf = Buffer.from(ress, 'base64')
+            conn.sendMessage(id, buf, MessageType.image, { quoted: m } )
+        })
+    })
+}
+
+//Quotes maker
 if (text.includes('.Kata')){
 conn.sendMessage(id, 'Silakan ulangi command dengan huruf kecil\n_contoh : .kata matamu indah bagai pelangi/udin_',MessageType.text, { quoted: m } );
 }
