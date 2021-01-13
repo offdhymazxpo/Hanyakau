@@ -108,6 +108,7 @@ Custom di sini [SETTING](https://github.com/mrfzvx12/Arelbot/blob/master/index.j
 * Jika sudah di dalam mc seperti berikut :
 
 • Klik file index.js
+
 • Klik edit
 
 <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104452742-00388b00-55d6-11eb-9521-2ec9bf9fc07a.jpg" width="320">
@@ -120,6 +121,10 @@ Jika sudah klik save dan dan keluar dari menu mc ketik
 
 • ctrl + z
 
+Jalankan bot kembali
+```bash
+> node index.js
+```
 ## Tutorial video
 
 * [Youtube](https://youtu.be/VqSer_W1yvI)
