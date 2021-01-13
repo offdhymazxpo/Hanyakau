@@ -53,17 +53,18 @@ Custom di sini [SETTING](https://github.com/mrfzvx12/Arelbot/blob/master/index.j
 
 ## Settings di termux
 
-Jika belum menginstall mc lakukan perintah berikut :
+* Jika belum menginstall mc lakukan perintah berikut :
 
 ```bash
 > pkg install mc
 > mc
 ```
-Jika sudah di dalam mc seperti berikut :
-> Klik file index.js
-> Klik edit
+* Jika sudah di dalam mc seperti berikut :
+• Klik file index.js
+• Klik edit
 
-Bagian bagian yang perlu di edit seperti berikut :
+*Bagian bagian yang perlu di edit seperti berikut
+
 Yang berwarna Ungu
    <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104451377-0a598a00-55d4-11eb-8d84-1ec950793b8f.jpg" width="320">
 
