@@ -39,35 +39,6 @@ Download aplikasi WhatsApp Bisnis disini :
 
 [DOWNLOAD Whatsapp Bisnis](https://play.google.com/store/apps/details?id=com.whatsapp.w4b) 
 
-## Settings
-
-* Nama bot
-* Instagram
-* Kapan Bot aktif
-* Apikey mhankbarbar
-* Apikey vhtear
-* Apikey tobz
-* Kontak whatsapp owner
-
-Custom di sini [SETTING](https://github.com/mrfzvx12/Arelbot/blob/master/index.js/#L13)
-
-## Settings di termux
-
-* Jika belum menginstall mc lakukan perintah berikut :
-
-```bash
-> pkg install mc
-> mc
-```
-* Jika sudah di dalam mc seperti berikut :
-• Klik file index.js
-• Klik edit
-
-*Bagian bagian yang perlu di edit seperti berikut
-
-Yang berwarna Ungu
-   <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104451377-0a598a00-55d4-11eb-8d84-1ec950793b8f.jpg" width="320">
-
 ## Dapatkan apikey disini
 
 Beberapa fitur berjalan menggunakan apikey, jika apikey tidak tersedia maka beberapa fitur tidak bisa di pakai.
@@ -109,6 +80,41 @@ Jalankan bot
 > node index.js
 ```
 Terakhir scan kode QR
+
+## Settings
+
+* Nama bot
+* Instagram
+* Kapan Bot aktif
+* Apikey mhankbarbar
+* Apikey vhtear
+* Apikey tobz
+* Kontak whatsapp owner
+
+Custom di sini [SETTING](https://github.com/mrfzvx12/Arelbot/blob/master/index.js/#L13)
+
+## Settings di termux
+
+* Matikan bot
+• ctrl + z
+
+* Jika belum menginstall mc lakukan perintah berikut :
+
+```bash
+> pkg install mc
+> mc
+```
+* Jika sudah di dalam mc seperti berikut :
+• Klik file index.js
+• Klik edit
+
+<img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104452742-00388b00-55d6-11eb-9521-2ec9bf9fc07a.jpg" width="320">
+
+* Bagian bagian yang perlu di edit seperti berikut
+
+Yang berwarna Ungu
+   <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104451377-0a598a00-55d4-11eb-8d84-1ec950793b8f.jpg" width="320">
+
 
 ## Tutorial video
 
