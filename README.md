@@ -113,15 +113,15 @@ Custom di sini [SETTING](https://github.com/mrfzvx12/Arelbot/blob/master/index.j
 
 <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104452742-00388b00-55d6-11eb-9521-2ec9bf9fc07a.jpg" width="320">
 
-###### Bagian bagian yang perlu di edit seperti berikut
+###### Bagian bagian yang perlu yang berwarna Ungu
 
-Yang berwarna Ungu
    <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104451377-0a598a00-55d4-11eb-8d84-1ec950793b8f.jpg" width="320">
-Jika sudah klik save dan dan keluar dari menu mc ketik
+
+###### Jika sudah klik save dan dan keluar dari menu mc ketik
 
 • ctrl + z
 
-Jalankan bot kembali
+###### Jalankan bot kembali
 ```bash
 > node index.js
 ```
@@ -198,17 +198,27 @@ Jalankan bot kembali
 
 | TEXT |Yes|
 | ------------- | ------------- |
-| Quotes maker|✅|
-| Logo pornhub|✅|
-| Text snow|✅|
-| Logo lion|✅|
-| Logo wolf|✅|
-| Logo ninja|✅|
-| Text neon|✅|
+| Quotes Maker|✅|
+| Logo Pornhub|✅|
+| Text Snow|✅|
+| Logo Lion|✅|
+| Logo Wolf|✅|
+| Logo Ninja|✅|
+| Text Neon 1-5|✅|
 | Text glitch|✅|
 | Text water|✅|
 | Text Blood|✅|
-
+| Text Thunder|✅|
+| Text Sand 1-4|✅|
+| Text Sky & cloud|✅|
+| Text Luxy|✅|
+| Text Baloo|✅|
+| Text Metal|✅|
+| Text Holo|✅|
+| Text Old|✅|
+| Text Blackping|✅|
+| Text Font generator|✅|
+| Text Matrix|✅|
 
 | EDUKASI |Yes|
 | ------------- | ------------- |
