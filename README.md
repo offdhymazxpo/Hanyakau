@@ -226,6 +226,8 @@ Custom di sini [SETTING](https://github.com/mrfzvx12/Arelbot/blob/master/index.j
 | Al-Qur'an per surah|✅|
 | Brainly|✅|
 | Wikipedia|✅|
+| Translate Semua bahasa|✅|
+| Kode bahasa|✅|
 | Fakta|✅|
 | KBBI|✅|
 | Tanggal Nasional|✅|
