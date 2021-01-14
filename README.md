@@ -125,6 +125,35 @@ Custom di sini [SETTING](https://github.com/mrfzvx12/Arelbot/blob/master/index.j
 ```bash
 > node index.js
 ```
+
+## Settings di aplikasi acode
+
+Download [Disini](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree)
+
+###### Masuk ke aplikasi
+
+• Klik titik tiga atas
+
+• Lalu pilih Buka berkas
+
+<img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104452742-00388b00-55d6-11eb-9521-2ec9bf9fc07a.jpg" width="320">
+
+###### Lalu klik Tanda kanan atas
+
+• Maka akan muncul seperti ini
+
+• Dan pilih termux
+
+###### Pilih file yang mau di edit
+
+<img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104452742-00388b00-55d6-11eb-9521-2ec9bf9fc07a.jpg" width="320">
+
+• Klik tanda 💾 untuk save
+
+###### Jika sudah klik save dan dan keluar dari aplikasi acode
+
+###### Masuk ke aplikasi termux lalu jalankan bot
+
 ## Tutorial video
 
 * [Youtube](https://youtu.be/VqSer_W1yvI)
