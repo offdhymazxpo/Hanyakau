@@ -22,9 +22,9 @@ Re-upload numpang ganti nama gabakal bikin lu pro
 * "Wahai orang-orang yang beriman, mengapakah kamu mengatakan sesuatu yang tidak kamu kerjakan?, Amat besar kebencian di sisi Allah bahwa kamu mengatakan apa-apa yang tidak kamu kerjakan."
 (QS ash-Shaff: 2-3).
 
-### Give me Start ⭐ to support
+**Give me Start ⭐ to support**
 
-### Semua fitur bergantung pada api, jika mengalami error berarti api yang di pakai sedang bermasalah
+**Semua fitur bergantung pada api, jika mengalami error berarti api yang di pakai sedang bermasalah**
 
 ### Sebelum install tes fitur dulu disini
 * [TES BOT](https://chat.whatsapp.com/FQNUK5VFD68GZaB0UlXjst)
@@ -49,7 +49,7 @@ Beberapa fitur berjalan menggunakan apikey, jika apikey tidak tersedia maka bebe
 
 ## Penginstalan
 
-Jika pertama kali membuka termux lakukan perintah berikut :
+**Jika pertama kali membuka termux lakukan perintah berikut :**
 ```bash
 > pkg install git
 > pkg install wget
@@ -57,16 +57,16 @@ Jika pertama kali membuka termux lakukan perintah berikut :
 > pkg install nodejs
 > pkg install npm
 ```
-Lalu clone repo
+**Lalu clone repo**
 ```bash
 > git clone https://github.com/mrfzvx12/termux-whatsapp-bot
 > cd termux-whatsapp-bot
 ```
-Lanjutkan dengan
+**Lanjutkan dengan**
 ```bash
 > bash install.sh
 ```
-Jika mengalami error, lakukan perintah manual berikut :
+**Jika mengalami error, lakukan perintah manual berikut :**
 ```bash
 > pkg install tesseract
 > npm i -g cwebp
@@ -75,11 +75,11 @@ Jika mengalami error, lakukan perintah manual berikut :
 > npm i
 > npm i got
 ```
-Jalankan bot
+**Jalankan bot**
 ```bash
 > node index.js
 ```
-Terakhir scan kode QR
+**Terakhir scan kode QR**
 
 ## Settings
 
@@ -95,17 +95,17 @@ Custom di sini [SETTING](https://github.com/mrfzvx12/Arelbot/blob/master/index.j
 
 ## Settings di termux
 
- Matikan bot
+ **Matikan bot**
 
 • ctrl + z
 
- Jika belum menginstall mc lakukan perintah berikut :
+ **Jika belum menginstall mc lakukan perintah berikut :**
 
 ```bash
 > pkg install mc
 > mc
 ```
- Jika sudah di dalam mc seperti berikut :
+ **Jika sudah di dalam mc seperti berikut :**
 
 • Klik file index.js
 
@@ -113,15 +113,15 @@ Custom di sini [SETTING](https://github.com/mrfzvx12/Arelbot/blob/master/index.j
 
 <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104452742-00388b00-55d6-11eb-9521-2ec9bf9fc07a.jpg" width="320">
 
- Bagian bagian yang perlu di edit yang berwarna Ungu
+ **Bagian bagian yang perlu di edit yang berwarna Ungu**
 
    <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104451377-0a598a00-55d4-11eb-8d84-1ec950793b8f.jpg" width="320">
 
- Jika sudah klik save dan dan keluar dari menu mc ketik
+ **Jika sudah klik save dan dan keluar dari menu mc ketik**
 
 • ctrl + z
 
- Jalankan bot kembali
+ **Jalankan bot kembali**
 ```bash
 > node index.js
 ```
@@ -130,7 +130,7 @@ Custom di sini [SETTING](https://github.com/mrfzvx12/Arelbot/blob/master/index.j
 
 Download [Disini](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree)
 
- Masuk ke aplikasi
+ **Masuk ke aplikasi**
 
 • Klik titik tiga atas
 
@@ -138,21 +138,21 @@ Download [Disini](https://play.google.com/store/apps/details?id=com.foxdebug.aco
 
 <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104452742-00388b00-55d6-11eb-9521-2ec9bf9fc07a.jpg" width="320">
 
- Lalu klik Tanda kanan atas
+ **Lalu klik Tanda kanan atas**
 
 • Maka akan muncul seperti ini
 
 • Dan pilih termux
 
- Pilih file yang mau di edit
+ **Pilih file yang mau di edit**
 
 <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104452742-00388b00-55d6-11eb-9521-2ec9bf9fc07a.jpg" width="320">
 
 • Klik tanda 💾 untuk save
 
- Jika sudah klik save dan dan keluar dari aplikasi acode
+ **Jika sudah klik save dan dan keluar dari aplikasi acode**
 
- Masuk ke aplikasi termux lalu jalankan bot
+ **Masuk ke aplikasi termux lalu jalankan bot**
 
 ## Tutorial video
 
