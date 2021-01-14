@@ -95,17 +95,17 @@ Custom di sini [SETTING](https://github.com/mrfzvx12/Arelbot/blob/master/index.j
 
 ## Settings di termux
 
-###### Matikan bot
+ Matikan bot
 
 • ctrl + z
 
-###### Jika belum menginstall mc lakukan perintah berikut :
+ Jika belum menginstall mc lakukan perintah berikut :
 
 ```bash
 > pkg install mc
 > mc
 ```
-###### Jika sudah di dalam mc seperti berikut :
+ Jika sudah di dalam mc seperti berikut :
 
 • Klik file index.js
 
@@ -113,15 +113,15 @@ Custom di sini [SETTING](https://github.com/mrfzvx12/Arelbot/blob/master/index.j
 
 <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104452742-00388b00-55d6-11eb-9521-2ec9bf9fc07a.jpg" width="320">
 
-###### Bagian bagian yang perlu di edit yang berwarna Ungu
+ Bagian bagian yang perlu di edit yang berwarna Ungu
 
    <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104451377-0a598a00-55d4-11eb-8d84-1ec950793b8f.jpg" width="320">
 
-###### Jika sudah klik save dan dan keluar dari menu mc ketik
+ Jika sudah klik save dan dan keluar dari menu mc ketik
 
 • ctrl + z
 
-###### Jalankan bot kembali
+ Jalankan bot kembali
 ```bash
 > node index.js
 ```
@@ -130,7 +130,7 @@ Custom di sini [SETTING](https://github.com/mrfzvx12/Arelbot/blob/master/index.j
 
 Download [Disini](https://play.google.com/store/apps/details?id=com.foxdebug.acodefree)
 
-###### Masuk ke aplikasi
+ Masuk ke aplikasi
 
 • Klik titik tiga atas
 
@@ -138,21 +138,21 @@ Download [Disini](https://play.google.com/store/apps/details?id=com.foxdebug.aco
 
 <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104452742-00388b00-55d6-11eb-9521-2ec9bf9fc07a.jpg" width="320">
 
-###### Lalu klik Tanda kanan atas
+ Lalu klik Tanda kanan atas
 
 • Maka akan muncul seperti ini
 
 • Dan pilih termux
 
-###### Pilih file yang mau di edit
+ Pilih file yang mau di edit
 
 <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104452742-00388b00-55d6-11eb-9521-2ec9bf9fc07a.jpg" width="320">
 
 • Klik tanda 💾 untuk save
 
-###### Jika sudah klik save dan dan keluar dari aplikasi acode
+ Jika sudah klik save dan dan keluar dari aplikasi acode
 
-###### Masuk ke aplikasi termux lalu jalankan bot
+ Masuk ke aplikasi termux lalu jalankan bot
 
 ## Tutorial video
 
