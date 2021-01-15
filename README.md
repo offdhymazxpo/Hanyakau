@@ -23,6 +23,7 @@ Re-upload numpang ganti nama gabakal bikin lu pro
 (QS ash-Shaff: 2-3).
 
 **Give me Start ⭐ to support**
+**Jangan lupa pilih watch agar kalian bisa dapat notifikasi ketika update**
 
 **Semua fitur bergantung pada api, jika mengalami error berarti api yang di pakai sedang bermasalah**
 
