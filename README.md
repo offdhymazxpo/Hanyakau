@@ -22,9 +22,9 @@ Re-upload numpang ganti nama gabakal bikin lu pro
 * "Wahai orang-orang yang beriman, mengapakah kamu mengatakan sesuatu yang tidak kamu kerjakan?, Amat besar kebencian di sisi Allah bahwa kamu mengatakan apa-apa yang tidak kamu kerjakan."
 (QS ash-Shaff: 2-3).
 
-##Give me Start ⭐ to support
+## Give me Start ⭐ to support
 
-##Jangan lupa pilih watch agar kalian bisa dapat notifikasi ketika update
+## Jangan lupa pilih watch agar kalian bisa dapat notifikasi ketika update
 
 **Semua fitur bergantung pada api, jika mengalami error berarti api yang di pakai sedang bermasalah**
 
@@ -156,7 +156,7 @@ Download [Disini](https://play.google.com/store/apps/details?id=com.foxdebug.aco
 
 • Klik tanda 💾 untuk save
 
- **Jika sudah klik save dan dan keluar dari aplikasi acode**
+ **Jika sudah klik save dan keluar dari aplikasi acode**
 
  **Masuk ke aplikasi termux lalu jalankan bot**
 
