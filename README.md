@@ -53,6 +53,8 @@ Beberapa fitur berjalan menggunakan apikey, jika apikey tidak tersedia maka bebe
 * [Apivhtear](https://vhtear.com/)
 * [Apitobz](https://tobz-api.herokuapp.com/)
 
+**Masuk grup tes bot di atas untuk mendapatkan apikey gratis 🙂**
+
 ## Penginstalan
 
 **Jika pertama kali membuka termux lakukan perintah berikut :**
