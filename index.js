@@ -62,7 +62,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] Scan kode qr dengan whatsapp!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] Lexa siap di jalankan, scan kode QR dengan whatsapp!`);
 });
 
 conn.on('credentials-updated', () =>
@@ -75,11 +75,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log('Lexa Bot')
+conn.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log('I'm Lexa :)')
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : ''
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by ig:@mrf.zvx`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => I'm Lexa :)`)
 })
 
 conn.on('message-new', async(m) =>
