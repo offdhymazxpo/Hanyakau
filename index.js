@@ -79,7 +79,7 @@ conn.on('user-presence-update', json => console.log(json.id + ' presence is => '
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : ''
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => I'm Lexa :)`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => Im Lexa :)`)
 })
 
 conn.on('message-new', async(m) =>
