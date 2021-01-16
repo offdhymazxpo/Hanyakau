@@ -75,7 +75,7 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log('I'm Lexa :)')
+conn.on('user-presence-update', json => console.log(json.id + ' presence is => ' + json.type)) || console.log('Im Lexa :)')
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : ''
