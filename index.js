@@ -19,6 +19,7 @@ const BotName = 'Lexa';
 const wa = 'https://chat.whatsapp.com/FQNUK5VFD68GZaB0UlXjst';
 const eror = 'Info fitur Error';
 const ow = 'Mrf.zvx';
+const nomorowner = '082223014661';
 const ovo = '082223014661';
 const pulsa = '082223014661';
 const dana = '082223014661';
@@ -168,13 +169,14 @@ axios.get(`https://arugaz.herokuapp.com/api/howbucins`).then((res) => {
   //Bug report
 if (text.includes('.bug')) {
  const teks = text.replace(/.bug /, "")
+ var nomor = m.participant
  const options = {
-       text: `*>Report* : @${nomor.split("@s.whatsapp.net")[0]} | ${id}\n*>Reason* : ${teks}`,
+       text: `*>Report* : ${nomor.split("@s.whatsapp.net")[0]} | ${id}\n*>Reason* : ${teks}`,
        contextInfo: { mentionedJid: [nomor] }
  }
  let hasil1 = `Info Bug *${teks}* Berhasil di kirimkan ke Owner`;
  conn.sendMessage(id, hasil1, MessageType.text, {quoted: m})
- conn.sendMessage('6282223014661@s.whatsapp.net', options, MessageType.text)
+ conn.sendMessage(`${nomorowner}@s.whatsapp.net`, options, MessageType.text)
 }
 
   //Owner to report
