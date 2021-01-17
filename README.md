@@ -28,7 +28,7 @@ Re-upload numpang ganti nama gabakal bikin lu pro
 
 <div align="center">
     <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104745189-62cd8a80-5780-11eb-987d-1b77e5989613.gif" width="50">
-</div)
+</div>
 
 **Semua fitur bergantung pada api, jika mengalami error berarti api yang di pakai sedang bermasalah**
 
