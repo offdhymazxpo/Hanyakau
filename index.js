@@ -3276,7 +3276,7 @@ Daftar pertanyaan yang bisa di jawab :
 *Apakah (Teks)*
 *Bolehkah (Teks)*
 *Kapan (Teks)*
-*Rate (Teks)*`,
+*Rate (Teks)*`;
       conn.sendMessage(id, buf, MessageType.image, { caption: hasil, quoted: m } )
         })
     })
