@@ -28,8 +28,8 @@ Re-upload numpang ganti nama gabakal bikin lu pro
 
 <div align="left">
     <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104745189-62cd8a80-5780-11eb-987d-1b77e5989613.gif" width="50">
-</div)
-**Semua fitur bergantung pada api, jika mengalami error berarti api yang di pakai sedang bermasalah**
+</div) **Semua fitur bergantung pada api, jika mengalami error berarti api yang di pakai sedang bermasalah**
+
 
 ### Sebelum install tes fitur dulu disini
 * [TES BOT](https://chat.whatsapp.com/FQNUK5VFD68GZaB0UlXjst)
