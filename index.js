@@ -83,7 +83,9 @@ conn.on('message-status-update', json => {
   const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
 })
 setInterval(function () {
-  console.log(`[ ${moment().format("HH:mm:ss")} ] => HI! I'm lexa :)`)
+  for (i = 0; i < 3; i++) {
+    console.log(`[ ${moment().format("HH:mm:ss")} ] => HI! I'm lexa :)`)
+  }
 }, 15000)
 
 //function
@@ -2930,6 +2932,8 @@ Gunakan command dengan huruf kecil dan tanpa tanda kurung ()
 ╠ _Ex = .Stalk @Lexa_ 
 ╠≽️ *.Shortlink (link)*
 ╠ _Pemendek link_ 
+╠≽️ *.ssweb (link)*
+╠ _Screenshoot Web_
 ╠════════════════════
 ║──────── *${BotName}* ──────── 
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
