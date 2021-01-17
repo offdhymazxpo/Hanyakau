@@ -145,19 +145,19 @@ Download [Disini](https://play.google.com/store/apps/details?id=com.foxdebug.aco
 
 • Pilih folder **Select Document**
 
-<img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104593554-71457480-56a2-11eb-9cb5-198c201fde62.png" width="320">
+<img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104593554-71457480-56a2-11eb-9cb5-198c201fde62.png" width="150">
 
  **Lalu klik Tanda kanan atas**
 
 • Maka akan muncul seperti ini
 
-<img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104593713-a5b93080-56a2-11eb-9fd0-ed539bdf6d18.png" width="320">
+<img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104593713-a5b93080-56a2-11eb-9fd0-ed539bdf6d18.png" width="150">
 
 • Dan pilih termux
 
  **Pilih file yang mau di edit**
 
-<img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104593943-05174080-56a3-11eb-915b-4fb195e794d3.png" width="320">
+<img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104593943-05174080-56a3-11eb-915b-4fb195e794d3.png" width="150">
 
 • Klik tanda 💾 untuk save
 
