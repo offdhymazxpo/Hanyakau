@@ -16,7 +16,7 @@
 
  **Hai** 👋🏻
 
-**Termux whatsapp bot V.2**
+**Termux whatsapp bot Update**
 
 Cobain juga nih
 
