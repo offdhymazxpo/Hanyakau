@@ -14,9 +14,9 @@
     <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/102708092-ece61880-42d2-11eb-831b-f3909d67921e.jpg" width="320">
     <h3> SCRIPT MODIFIKASI BUKAN HASIL SENDIRI </h3>
 
-# Hai 👋🏻
+ **Hai** 👋🏻
 
-# Termux whatsapp bot V.2
+**Termux whatsapp bot V.2**
 
 Cobain juga nih
 
@@ -28,9 +28,9 @@ Re-upload numpang ganti nama gabakal bikin lu pro
 * "Wahai orang-orang yang beriman, mengapakah kamu mengatakan sesuatu yang tidak kamu kerjakan?, Amat besar kebencian di sisi Allah bahwa kamu mengatakan apa-apa yang tidak kamu kerjakan."
 (QS ash-Shaff: 2-3).
 
-## Give me Stars ⭐ to support
+#### Give me Stars ⭐ to support
 
-## Jangan lupa pilih watch agar kalian bisa dapat notifikasi ketika update
+#### Jangan lupa pilih watch agar kalian bisa dapat notifikasi ketika update
 
 <div align="center">
     <img alt="ARELBOT" src ="https://user-images.githubusercontent.com/72728486/104745189-62cd8a80-5780-11eb-987d-1b77e5989613.gif" width="50">
