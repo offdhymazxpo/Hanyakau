@@ -16,6 +16,12 @@
 
 # Hai 👋🏻
 
+# Termux whatsapp bot V.2
+
+Cobain juga nih
+
+[TERMUX WHATSAPP BOT V2](https://github.com/NazwaS/termux-whatsapp-bot)
+
 Re-upload numpang ganti nama gabakal bikin lu pro
 </div>
 
@@ -307,6 +313,9 @@ Download [Disini](https://play.google.com/store/apps/details?id=com.foxdebug.aco
 * [Facebook](https://www.facebook.com/profile.php?id=100028409167054)
 * My whatsapp bot [Arel Bot](https://wa.me/6281219700198)
 
+## Partnership
+* [`NazwaS`](https://github.com/NazwaS/NazwaS)
+* [`re-Destro`](https://github.com/re-Destro)
 
 ## Terimakasih untuk
 * [`Fdciabdul`](https://github.com/fdciabdul)
