@@ -12,7 +12,7 @@ const speed = require('performance-now');
 
 //Setting
 
-const apivhtear = '._.';
+const apivhtear = 'K2021Chikanot';
 const apibarbar = 'Nkwp9oR7Eg9yyKbejBpm';
 const tobzkey = 'BotWeA';
 const BotName = 'X-AV';
