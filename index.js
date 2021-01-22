@@ -12,24 +12,22 @@ const speed = require('performance-now');
 
 //Setting
 
-const apivhtear = 'apikey';
-const apibarbar = 'apikey';
-const tobzkey = 'apikey';
-const BotName = 'Lexa';
-const wa = 'https://chat.whatsapp.com/FQNUK5VFD68GZaB0UlXjst';
+const apivhtear = '._.';
+const apibarbar = 'Nkwp9oR7Eg9yyKbejBpm';
+const tobzkey = 'BotWeA';
+const BotName = 'X-AV';
 const eror = 'Info fitur Error';
-const ow = 'Mrf.zvx';
-const nomorowner = '082223014661';
-const ovo = '082223014661';
-const pulsa = '082223014661';
-const dana = '082223014661';
-const instagram = 'http://www.instagram.com/mrf.zvx';
-const aktif = '08:00 - 22:00';
+const ow = 'Mass[]';
+const nomorowner = '6285796582392';
+const pulsa = '085-796-582-392';
+const dana = '085796582392';
+const instagram = 'http://www.instagram.com/offdhymaz';
+const aktif = 'Tergantung Kouta';
 const vcard = 'BEGIN:VCARD\n'
   + 'VERSION:3.0\n'
-  + 'FN:Mrf.zvx\n' // Nama kamu
-  + 'ORG:Lexa;\n' // Nama bot
-  + 'TEL;type=CELL;type=VOICE;waid=6282223014661:+62 822-2301-4661\n' //Nomor whatsapp kamu
+  + 'FN:MAss[]x\n' // Nama kamu
+  + 'ORG:X-AV;\n' // Nama bot
+  + 'TEL;type=CELL;type=VOICE;waid=6285796582392:+62 857-9658-2392\n' //Nomor whatsapp kamu
   + 'END:VCARD'
 //
 const
@@ -468,10 +466,10 @@ _“jauhilah api neraka, walau hanya dengan bersedekah sebiji kurma (sedikit). J
 ╠≽️ *Asal Kota*
 ╠≽️ *Gender*
 ╠════════════════════
-║──────── *Lexa* ──────── 
+║──────── *X-AV* ──────── 
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
 ║  ▌│█║▌║▌║║▌║▌║█│▌▌│█║
-║──────── *Lexa* ────────
+║──────── *X-AV* ────────
 ╠════════════════════
 ╠════════════════════` , MessageType.text);
   }
